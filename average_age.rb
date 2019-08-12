@@ -6,4 +6,4 @@ def average_age(people)
     sum.to_f / people.length
 end
 
-average_age(candidates)
+average_age(candidates) # => 26.333333333333332

@@ -1,3 +1,4 @@
+# step1: 
 # define 3 hashes: jane, sara, and jason
 jane = { 
     first_name: "Jane", 
@@ -31,3 +32,6 @@ jason = {
     current_salary: 0.00,
     languages: ["C++", "Python"]
 }
+
+candidates = [jane, sara, jason]
+

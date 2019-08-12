@@ -3,6 +3,6 @@ def language_screening(people, language)
     members.map { |person| person[:first_name]}
 end
 
-language_screening(candidates, "Python")
-language_screening(candidates, "GO")
-language_screening(candidates, "javascript")
+language_screening(candidates, "Python") #  ["Sara", "Jason"]
+language_screening(candidates, "GO") # ["Jane"]
+language_screening(candidates, "javascript") # ["Jane"]
